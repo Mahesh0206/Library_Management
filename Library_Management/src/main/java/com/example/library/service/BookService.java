@@ -1,7 +1,6 @@
 package com.example.library.service;
 
 import com.example.library.dto.BookDTO;
-import com.example.library.model.Book;
 
 import java.util.List;
 
@@ -14,5 +13,6 @@ public interface BookService {
 
     BookDTO updateBook(BookDTO bookDTO);
 
-    void deleteBook(BookDTO bookDTO);
+    BookDTO deleteBook(BookDTO bookDTO);
+
 }
